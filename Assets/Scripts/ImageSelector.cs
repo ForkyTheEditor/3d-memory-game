@@ -21,9 +21,12 @@ public class ImageSelector : MonoBehaviour
         {
             for (int i = 1; i <= 2; i++)
             {
-                int x = numGen.Next(0, cubes.Count);
-                cubes[x].GetComponent<Renderer>().material.mainTexture = img;
-                cubes.RemoveAt(x);
+                if (cubes.Count != 0)
+                {
+                    int x = numGen.Next(0, cubes.Count);
+                    cubes[x].GetComponent<Renderer>().material.mainTexture = img;
+                    cubes.RemoveAt(x);
+                }
             }
         }
     }
