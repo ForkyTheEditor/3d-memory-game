@@ -3,7 +3,7 @@ This is a non-commercial project of mine, made only for educational purposes.
 
 Note that I do not own most of the assets used in the game.
 
-Music by Jake Chudnow.
+Music by Jake Chudnow (https://soundcloud.com/jakechudnow).
 
 Images from https://www.reddit.com/r/ImaginaryStarscapes/
             https://www.reddit.com/r/ImaginarySwamps/
